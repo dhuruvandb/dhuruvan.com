@@ -1,0 +1,50 @@
+
+<html>
+<head>
+<title>Random Number Game</title>
+<link rel="stylesheet" href="random.css"/>
+</head>
+<body>
+<button id="back">BACK</button>
+<div id = "Welcome">
+    <h1 class="title"	class="hi" >Welcome to the Random Number guessing game</h1>
+    <button id="newgame" onclick="Newgame()">New Game</button>
+    <button id="help" onclick="help()">Help</button>
+    <button id="exit" onclick="exit()">Exit</button>
+    
+    
+</div>
+
+
+<div id = "level">
+    <p>Choose your level</p>
+    <br>
+    <br>
+<button id="easy" onclick="Easy()">Easy</button>
+<button id="Medium" onclick="Medium()">Medium</button>
+<button id="hard" onclick="Hard()">Hard</button>
+</div>
+
+
+<div id="buttons">
+     <p id = "timer"></p>
+<button class="button"></button>
+<button class="button"></button>
+<button class="button"></button>
+<button class="button"></button>
+<button class="button"></button>
+<button class="button"></button>
+<button class="button"></button>
+
+<button onclick="pause()" id="pause">▶️</button>
+
+</div>
+<button id="restart_easy" onclick="Easy()">Restart</button>
+<button id="restart_Medium" onclick="Medium()">Restart</button>
+<button id="restart_hard" onclick="Hard()">Restart</button>
+
+<script src="random.js">
+</script>
+</body>
+
+</html>
